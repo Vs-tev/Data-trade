@@ -1,0 +1,195 @@
+html body {
+    font-size: 12px;
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #f1f5f6;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#sort_portfolio {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 92%;
+}
+
+.clearFilter_btn,
+.load_date_btn {
+    font-size: 14px !important;
+    color: var(--blue-text) !important;
+}
+
+.clearFilter,
+.load_date_btn > i {
+    position: relative;
+    font-size: 18px !important
+}
+
+.load_date_btn > i {
+    top: 2px
+}
+
+.load_date_btn {
+    position: relative;
+    top: 5px;
+    right: 5px;
+    margin-right: 25px
+}
+
+.result_per_page_p {
+  
+    top: 9px;
+    right: 4px;
+    margin-left: 9px
+}
+
+#result_per_page {
+    padding-left: 0px !important;
+}
+
+.collapse .custom-control {
+    bottom: 8px;
+    left: 8px
+}
+
+.secondary-container {
+    margin-top: 2%;
+    background: white;
+}
+
+/*All trades tbody*/
+
+
+.btn-group .btn,
+.btn-group i {
+    font-size: 11px !important;
+}
+
+.result_per_page_p {
+    position: relative;
+
+}
+
+.duration_i {
+    font-size: 20px !important;
+    position: absolute;
+}
+
+
+/*Trades table container*/
+/*Table Style Contro*/
+
+.th-allTradesTable {
+    z-index: 9 !important;
+}
+
+.noneCollapse_td:hover {
+     background-color: #f4f4f4;
+    cursor:pointer
+}
+
+.trade-row .deleteTrade,
+.trade-row .editTrade,
+.trade-row .collapseTrade {
+   color: var(--main-text-color);
+    vertical-align: middle;
+    font-size: 1.425rem !important;
+    margin-left: 11px
+}
+
+.trade-row .type_side_arrow {
+    vertical-align: middle;
+    font-size: 18px !important;
+    margin-right: 8px;
+    margin-top: -3px !important;
+}
+
+.accordion-toggle:hover {
+    text-decoration: none
+}
+
+/*hidden row*/
+.close_collapse {
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    text-decoration: none !important;
+    font-weight: 500
+}
+
+.collapse_tr {
+    background: #f4f4f4;
+}
+
+.commentar_div {
+    background: #efefef;
+    border-radius: 3px;
+    padding: 8px;
+    border: 1px solid #cbcbcb;
+    height: 120px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 500
+}
+
+.commentar_p {
+    width: 100%;
+    min-height: 35px;
+}
+
+.commentar_p:focus {
+    border: 1px solid #a295ff !important;
+    box-shadow: 0 1px 3px rgba(105, 105, 105, 0.31) !important;
+    -moz-box-shadow: 0 1px 3px rgba(105, 105, 105, 0.31);
+    -webkit-box-shadow: 0 1px 3px rgba(105, 105, 105, 0.31);
+    background: white;
+}
+
+/*modal edit trade ******************************************/
+#type_side{
+    width: 126px;
+    margin-left: auto
+}
+
+#strategy, #exit_reason_modal, #entry_date_edit, #exit_date_edit{
+    width: 210px!important;
+     margin-left: auto!important;
+}
+
+.bg-color-blue {
+    background-color: var(--blue-text);
+}
+
+.eidt_symbol_li >.dropdiv >.styleSelect{
+    padding: 0px;
+    position: absolute;
+    bottom: 420px!important;
+    top: 0px;
+    height: 380px;
+}
+.eidt_symbol_li >.dropdiv >.styleSelect > div {
+     height:100%;
+    overflow-y: scroll;
+    padding-top: 0px;
+}
+
+.modal-icon-inside{
+    margin-top: -29px;
+    margin-right: 3px
+}
+
+.div_bottom {
+   position: relative;
+   padding: 30px;
+}
+.div_bottom >button{
+    float: right;
+    margin-right:18px
+}
