@@ -1,0 +1,352 @@
+/**/
+:root{
+    /*th; td; input label; */
+    --main-text-color:#414c52;
+    
+    /*search icon; sort table icon*/
+    --icon-color:#9b9b9b; 
+    
+    /*Modal header color;*/
+    --modal-header-text-color:#8e6767;
+    
+    /*tr border*/
+    --tr-border:#efefef;
+    
+    /*th background color*/
+    --th-background:#f5f5f5;
+    
+    /*red color for negative number*/
+    --negative-red-color: rgb(255, 38, 38);
+    
+     --negative-red-color2: rgb(255, 198, 198);
+    
+      /*color blue text; border-bottom .active*/
+    --blue-text: rgba(90, 90, 211, 0.92);
+      
+    /*Primary color*/    
+    --primary-color: #f2f2f2;          
+    
+    /*background-color hover #fafafa*/
+    --hover-color: #fafafa;
+} 
+
+/*button style*/
+button.btn,
+a.a-btn
+{
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    border:1px solid #f3f3f3!important;
+    min-width: 80px
+}
+
+button.btn-primary{
+    background: rgb(21, 161, 253);
+    border:1px solid rgb(21, 161, 253)!important;
+    min-width: 80px;
+    max-height: 34px;
+}
+
+button.btn-primary:focus,
+button.btn-primary.focus{
+     outline-offset: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+     background: rgb(21, 161, 253)!important;
+}
+
+button.btn-primary:hover{
+     background: rgb(21, 176, 253);
+}
+
+/*all inputs style*/
+.recording-inputs input,
+.recording-inputs select,
+.modal-content input,
+.modal-content select,
+input[type=search],
+input[type=text],
+input[type=date],
+input[type=email],
+input[type=password],
+.portfoliocontent select,
+.drop_list_container select,
+.drop_list_container input[type=date]
+{
+    color: var(--main-text-color);
+    border: 1px solid #cbcbcb!important;
+    height: 35px;
+    background-color: white!important;
+    font-size: 14px;
+    padding-left: 8px;
+    
+}
+.recording-inputs input,
+.modal-content input,
+input[type=search],
+input[type=text],
+input[type=date],
+.drop_list_container input[type=date]{
+    font-family: 'Roboto';
+}
+
+.recording-inputs .time_frame:focus,
+.recording-inputs input:focus,
+.modal-content input:focus,
+.custom-select:focus,
+input[type=text]:focus,
+input[type=date]:focus,
+input[type=password]:focus,
+.drop_list_container input[type=date]:focus,
+.NewPortfolioInsputs select:focus
+{
+    border: 1px solid #a295ff!important;
+    background: white;
+    color: var(--main-text-color);
+    box-shadow: 0 1px 3px rgba(105, 105, 105, 0.31)!important;
+    -moz-box-shadow: 0 1px 3px rgba(105, 105, 105, 0.31); 
+    -webkit-box-shadow: 0 1px 3px rgba(105, 105, 105, 0.31);
+}
+
+
+
+label[for]{
+    font-size: 14px!important;
+    font-weight: 400!important;
+}
+
+
+/*placeholder style*/
+.recording-inputs input::placeholder,
+input[type=search]::placeholder {
+    color: var(--modal-header-text-color);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/*search input*/
+.group_input_search .search
+{
+   border:none!important;
+    width: 80%;
+    background-color: #fff;
+     outline-style:none; /*Chrome*/
+    margin-top: 1px
+}
+.group_input_search .search:focus{
+    background: white;
+    box-shadow: none;
+    border: none!important;
+    box-shadow: none!important;
+   
+}
+.group_input_search:focus-within {
+    transition: 0.1s;
+    background: white;
+      border: 1px solid #a295ff!important;
+    box-shadow: 0 1px 3px rgba(105, 105, 105, 0.31)!important;
+    -moz-box-shadow: 0 1px 3px rgba(105, 105, 105, 0.31); 
+    -webkit-box-shadow: 0 1px 3px rgba(105, 105, 105, 0.31);
+       
+}
+
+.group_input_search .search_transaction_deteils_i {
+   padding-right: 0px;
+    padding-left: 10px;
+    margin-left: 0px;
+    font-size: 18px;
+    color: var(--main-text-color);
+    font-weight: 300;
+    vertical-align: middle;
+}
+.group_input_search{
+    background-color: #fff;
+    border: 1px solid #cbcbcb!important;
+    width: 40%;
+    height: 40px;
+    border-radius: 3px;
+    margin-bottom: 16px;
+}
+.secondary-container .group_input_search{
+    margin-left: auto;
+}
+
+/*Delete button X*/
+#trade_list_tab tr .deleteTrade:hover,
+.deleteTrade:hover,
+.editTrade:hover,
+.collapseTrade:hover,
+.portfolio-table .deleteportfolio:hover
+{
+    border-radius: 50px;
+    color: #cbcbcb!important;
+    transition: 0.15s ease;
+     background: #efefef;
+     -webkit-box-shadow: 0px 0px 1px 7px #efefef;
+     -moz-box-shadow: 0px 0px 1px 7px #efefef;
+     box-shadow: 0px 0px 1px 7px #efefef;
+}
+
+
+/*MODALS STYLE*/
+.modal-dialog .modal-content {
+    border-radius: 2px;
+}
+
+.modal-header {
+    border: none;
+    background: #ffffff;
+    border-radius: 2px;
+}
+
+.modal-header button {
+    padding: 28px !important;
+}
+
+
+.modal-header > label {
+    font-size: 18px !important;
+    color: var(--modal-header-text-color);
+    font-weight: 400 !important;
+    font-family: 'Roboto';
+    padding: 16px 16px 7px 16px;
+}
+
+.modal-footer .btn-light {
+    border: solid 1px #e3e3e3;
+    color: #313131;
+    border-radius: 2px;
+    width: auto;
+    margin-right: 22px !important;
+}
+.modal-footer{
+    border: none!important;
+    padding: 19px 17px 29px 
+}
+
+.modal-content {
+    -webkit-box-shadow: 3px 3px 16px -7px rgba(11, 23, 22, 1);
+    -moz-box-shadow: 3px 3px 16px -7px rgba(11, 23, 22, 1);
+    box-shadow: 3px 3px 16px -7px rgba(11, 23, 22, 1);
+}
+
+/*redio button***************************/
+.custom-control-label {
+    font-size: 14px
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label:before,
+.custom-control-input:checked ~ .custom-control-label::before,
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label:before,
+.custom-control-input:checked ~ .custom-control-label:before {
+    background-color: var(--blue-text);
+    border-color: #2dbe60;
+    box-shadow: none !important;
+    border: none !important;
+    transition: 1sec ease-in
+}
+
+
+/*text style**********************************/
+.text-1 {
+    font-size: 16px !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    font-family: 'Roboto';
+}
+.text-2 {
+    font-size: 0.9rem;
+    
+}
+.text-3{
+     font-size: 0.82rem;
+}
+.text-4 {
+    font-size: 1.125rem !important;
+}
+
+.text-5 {
+    font-size: 0.9rem;
+    text-transform: uppercase
+}
+
+.text-6 {
+    font-size: 0.82rem;
+    color: var(--modal-header-text-color);
+}
+
+.text-7 {
+    font-weight: 500!important;
+    font-size: 0.82rem!important
+}
+.text-8{
+     font-size: 72px !important;
+  font-size: 4.5rem !important;
+}
+.text-9{
+    font-size: 1.8rem;
+}
+.font-weight-600{
+    font-weight: 600!important;
+}
+.font-weight-500{
+    font-weight: 500!important;
+}
+.font-weight-400 {
+    font-weight: 400 !important;
+}
+
+.font-weight-300 {
+    font-weight: 300 !important;
+}
+/*dorpdown style *******************************/
+
+.dateRangeContainer {
+    border-radius: 3px;
+    background: white;
+    border: 1px solid #cbcbcb !important;
+}
+
+.dateRangeContainer > input[type=date]{
+    width: 80%;
+}
+
+.dateRangeContainer > input {
+    background: white;
+    border: none !important;
+    outline-style: none;
+    /*Chrome*/
+    font-size: 14px !important;
+    padding-top: 0px;
+    padding-bottom: 0px
+}
+
+.dateRangeContainer > input:focus {
+    background: white !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.dateRangeContainer:focus-within {
+    transition: 0.1s;
+    border: 1px solid #a295ff !important;
+    background: white;
+    color: var(--main-text-color);
+}
+
+.icon-inside {
+    position:relative;
+    float: right;
+    margin-top: -29px
+}
+.dropdown-menu li:hover{
+    background-color: var(--hover-color)
+}
+.dateRangeContainer .dropdown-menu {
+    width: 100%;
+}
+
+#type_side{
+    text-transform: uppercase
+}

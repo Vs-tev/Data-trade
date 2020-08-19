@@ -1,0 +1,32 @@
+#Strategy_modal_button{
+     margin:13px 0 13px 16px
+
+}
+#StrategyOptions{
+    position:absolute;
+    height:100%;
+    width:100%;   
+}
+
+.table-row{
+   position:relative; 
+   height:auto
+}
+
+
+#strategy-table tbody{
+  bottom: 55px;
+  position:absolute;
+  width: 100%;
+  top:95px;
+  display: block; /* to enable vertical scrolling */
+  height: auto;
+  overflow-y: scroll; 
+}
+
+#strategy-table tr{
+  display: table; 
+  width: 100%;
+  box-sizing: border-box; 
+}
+

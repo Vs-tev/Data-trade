@@ -1,0 +1,96 @@
+#Close{
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+    width: 364px;
+    top: 155px;
+    bottom: 15px;   
+    padding-top: 15px
+}
+
+
+.table-performance td{
+    padding-top: 6px;
+    padding-bottom: 6px;  
+}
+.table-performance tr td{
+    font-weight:500;
+    color: var(--main-text-color);
+    font-family: 'Roboto';
+    padding-left: 16px;       
+}
+
+.table-performance td:nth-of-type(1){
+   width: 45% 
+}
+.table-performance td:nth-child(2){
+    text-align: right; 
+}
+.group-for-border-bottom{
+    border-bottom:3px solid #ffeaea;
+}
+
+ #more{
+    margin-top: 15px;
+    float: right
+}
+#more, i {
+    padding: 2px;
+    padding-right: 5px;
+    vertical-align: middle;
+    
+}
+
+.performance-bottom i{
+    font-size: 20px
+}
+/*********/
+#circle_container_result{
+    font-family: 'Roboto';    
+    margin-top: 20%; 
+    position: absolute;
+    padding-left: 51px; 
+}
+
+.circle_result{
+    position:relative;
+    display:inline-block;
+   
+    
+}
+canvas {
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    
+    }
+  
+   .circle_label_in{
+    color:#414c52;
+    display:block;
+    line-height:200px;
+    text-align:center;
+    width:220px;
+    font-size:34px!important;
+    font-weight:100!important;
+       
+    }
+
+.win_rate_lable_circle{
+    position: absolute;
+    text-align:center;
+    top:115px;
+    left: 77px;
+    font-size: 16px!important;
+    color: #8e6767;
+    font-weight: 400!important;
+}
+  
+
+
+
+
+
+

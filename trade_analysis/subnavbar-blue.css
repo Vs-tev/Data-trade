@@ -1,0 +1,36 @@
+.nabvar_blue{
+   padding: 0px!important;
+    -webkit-box-shadow: 1px 7px 11px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 7px 11px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 7px 11px -10px rgba(0, 0, 0, 0.75);
+}
+.nav_blue li a{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    border-radius:0px;
+    border-bottom: 2.5px solid #007bff;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.nav_blue li a.focus,
+.nav_blue li a:focus{
+     outline-offset: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.nabvar_blue ul li a:hover{
+   color: #f2f2f2;
+    border-bottom: 2.5px solid white;
+    
+}
+.nabvar_blue .nav_blue li.active a {
+    border-bottom: solid 2.5px #f2f2f2;
+    color: #f2f2f2;
+    background: #007bff;
+}

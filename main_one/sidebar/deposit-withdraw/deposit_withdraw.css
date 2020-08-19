@@ -1,0 +1,26 @@
+            /*MANAGE FUNDS*/
+
+.modal-footer .save_deposit {
+    
+    color: white;
+    border-radius: 2px;
+    margin: 5px 15px 5px 15px
+}
+
+.max_2_portfolio_modal_body >p{
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--main-text-color);
+    font-family: 'Roboto';
+    text-align: left
+}
+
+
+
+
+
+
+
+
+

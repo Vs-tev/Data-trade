@@ -1,0 +1,73 @@
+/*MY TRADING RULES*/
+.container-2 .tab .nav ,#TradingSettings .tab .nav{
+   border: none;
+}
+#TradingSettings .nav-tabs li a
+{
+    display: block;
+    margin-left: 16px;
+    margin-right: 20px;
+    padding-bottom:8px;
+    padding-top:20px;
+    font-size: 11.5px;
+    font-weight: 200;
+    color: #414c52;
+    transition: all 0.2s ease 0.1s;
+    text-decoration: none;
+    border-bottom: solid 2px white;
+    background-color:white;  
+}
+#TradingSettings .nav-tabs{
+    background: white
+}
+
+.nav-tabs li a:hover, #TradingSettings .nav-tabs li a:hover
+{
+    color: #a163ff;
+    
+}
+
+.nav-tabs li.active a, #TradingSettings .nav-tabs li.active a{
+    border-bottom: solid 2px #5f5fff;
+    color: #5f5fff;
+}
+
+
+.new-rule-btn{
+margin:8px 0px 8px 16px;
+}
+
+#Entry-Rules, #TP-Rules, #SL-Rules {
+    position:absolute;
+    height:100%;
+    width:100%;   
+}
+
+#new_rule_button, #new_tp_button, #new_sl_button{
+   position:relative; 
+   height:auto
+}
+
+#entryrule-table tbody,
+#stoploss-table tbody,
+#takeprofit-table tbody
+{
+ bottom: 100px;
+  position:absolute;
+  width: 100%;
+  top:85px;
+  display: block; /* to enable vertical scrolling */
+  height: auto;
+  overflow-y: scroll; /* keeps the scrollbar even if it doesn't need it; display purpose */
+}
+
+#entryrule-table tr,
+#stoploss-table tr,
+#takeprofit-table tr {
+  display: table; 
+  width: 100%;
+  box-sizing: border-box;  
+}
+
+
+    /*END my Trading Rules*/

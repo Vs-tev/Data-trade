@@ -1,0 +1,486 @@
+html body {
+    background-color: #ebebeb;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: var(--main-text-color);
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#cover {
+    background: url('ajax-loader.gif') center no-repeat #e8e8e8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+label {
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    margin-bottom: 0px !important;
+    font-family: 'Roboto';
+}
+
+
+
+/*IMPORTAN CLASSES*/
+
+.main {
+    min-width: 1150px;
+    height: 100%;
+    /* bottom: 10px;*/
+}
+
+.HauptRow {
+    height: 100%;
+}
+
+.left {
+    width: 364px;
+    height: 100%;
+
+}
+
+.rowchart {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    padding-bottom: 1px;
+    background: white
+}
+
+
+
+.rowtab {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+
+}
+
+
+/*Minimize - maximize Mega-tabs classes leraning.js*/
+.minimize-top {
+    position: absolute;
+    width: 100%;
+    height: 100% !important;
+    padding-bottom: 100px
+}
+
+.minimize-bottom {
+    bottom: 0px !important;
+    position: absolute !important;
+    width: 100% !important;
+    height: 47px !important;
+}
+
+/***********************/
+
+.accountInfoContainer {
+    height: 100%;
+    background-color: #ffffff;
+
+}
+
+.container-2 {}
+
+.chartContainer {
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url(testimg.pn);
+    overflow-y: hidden;
+    /*korigieren nur content scroll*/
+    /*-webkit-box-shadow: -1px 3px 1px -7px rgba(11,23,22,1);
+-moz-box-shadow: -1px 3px 10px -7px rgba(11,23,22,1);
+box-shadow: -1px 3px 10px -7px rgba(11,23,22,1);*/
+}
+
+.tradeContainer {
+    background: white;
+    /*-webkit-box-shadow: -1px 3px 1px -7px rgba(11,23,22,1);
+-moz-box-shadow: -1px 3px 10px -7px rgba(11,23,22,1);
+box-shadow: -1px 3px 10px -7px rgba(11,23,22,1);*/
+}
+
+
+
+.Mega-tabs {
+    overflow-y: auto;
+    background: white;
+
+}
+
+a i.btn-i {
+    font-size: 17px;
+    vertical-align: middle;
+    color: var(--main-text-color);
+    margin: 0px;
+}
+
+i.btn-i:hover {
+    transition: .1s ease;
+    color: rgba(65, 76, 82, 0.64);
+}
+
+
+
+button.btn {
+    font-size: 12px;
+    border-radius: 2px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+
+
+#result_transactions_deteils {
+    height: 60vh;
+    overflow-y: scroll
+}
+
+/*Tooltip style*/
+.tooltip > .tooltip-inner {
+    font-size: 11px;
+    font-family: 'Roboto';
+    padding: 3px;
+    border-radius: 2px;
+    color: #f7f7f7;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.popover-body {
+    font-size: 10.5px;
+    padding: 5px;
+    background: #f7f7f7
+}
+
+.popover {
+    border-radius: 2px !important
+}
+
+/**/
+
+
+
+/*blur-background*/
+/*
+body.modal-open > :not(.modal)
+{
+    -webkit-filter: blur(2px) grayscale(100%);
+    -moz-filter: blur(1px);   
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    transition: 0.5s ease
+}*/
+
+
+/*Modal End*/
+/*IMPORTAN CLASSES END*/
+
+/* ^^PAGE CONTENT^^ */
+
+/* Left ACCOUNT PERFORMANCE */
+#line_chart {
+    position: absolute;
+    opacity: 60%;
+}
+
+#portfolio_name {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: capitalize;
+    z-index: 0
+}
+
+.portfolio-name-row {
+    padding-top: 10px;
+    font-size: 12px;
+
+}
+
+#currency1 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 12px;
+    color: var(--blue-text);
+}
+
+#total_equity {
+    font-size: 24px;
+}
+
+.currency-balance {
+    text-align: center !important;
+}
+
+.total_net_profit_div {
+    font-size: 11px !important;
+    font-family: 'Roboto';
+}
+
+.balance_colum {
+    width: 240px;
+    height: 80px;
+    z-index: 0;
+    margin: auto
+}
+
+.balance_colum_inner {
+    margin-top: 28px;
+    font-family: 'Roboto'
+}
+
+/* Tab button Trade Record & Portfolio performance */
+
+.container-2 .nav-tabs {
+    background: none
+}
+
+.container-2 .nav-tabs li a {
+    display: block;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    text-transform: ;
+    color: var(--main-text-color);
+    transition: all 0.1s ease;
+    text-decoration: none;
+    z-index: 1
+}
+
+.nav-tabs {
+    background: var(--th-background)
+}
+
+.tab-li {
+    margin-left: auto;
+}
+
+#Open {
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+    width: 364px;
+    top: 155px;
+    bottom: 5px;
+    padding-top: 15px;
+
+}
+
+
+/*MEGA TABS*/
+
+
+.nav-menu {
+    background: var(--th-background);
+}
+
+.tradeContainer .nav-menu li a {
+    background: #f7f7f7
+}
+
+.tradeContainer .nav-tabs li a {
+    display: block;
+    margin-left: 16px;
+    margin-right: 30px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--main-text-color);
+    transition: all 0.2s ease 0.1s;
+    text-decoration: none;
+
+    border-bottom: solid 2px var(--th-background);
+    background-color: var(--th-background);
+    text-transform: uppercase
+}
+
+
+.tradeContainer .nav-tabs li a:hover {
+    color: #a163ff;
+}
+
+.tradeContainer .nav-tabs li.active a {
+    border-bottom: solid 2px #5f5fff;
+    color: #5f5fff;
+    background: var(--th-background);
+}
+
+/*Min Max mega tabs button*/
+.min-max-icon {
+    color: var(--blue-text);
+    cursor: pointer;
+    font-size: 30px !important;
+    position: absolute;
+    top: 15%;
+}
+
+.nav-menu .min-max-btn {
+    height: 30px;
+    position: relative;
+    margin-top: 7px;
+    background: var(--th-background);
+    box-shadow: none!important;
+    border: none;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.nav-menu .min-max-btn:hover {
+     background-color: #e6e6e6;
+    border-radius: 5px;
+}
+
+.li-min-max {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+/**********************************/
+
+/*TABLE STYLE CONTROL*/
+
+.mega-tabls-table-control tr td button {
+    float: left;
+    background: none;
+    border: none
+}
+
+.mega-tabls-table-control tr td,
+.mega-tabls-table-control tr td a,
+.transactions_table tr td,
+.transactions_table tr td a,
+.portfolio-table tr td,
+.portfolio-table tr td a {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--main-text-color);
+    font-family: 'Roboto';
+
+
+}
+
+.mega-tabls-table-control tr td,
+.transactions_table tr td,
+.portfolio-table tr td {
+    font-size: 13px;
+    font-weight: 500 !important;
+    padding-left: 16px;
+    border-bottom: 1px solid #efefef
+}
+
+.mega-tabls-table-control tr:hover,
+.transactions_table tr:hover,
+.portfolio-table tr:hover {
+    background: var(--hover-color);
+}
+
+.mega-tabls-table-control thead {
+    display: table;
+    /* to take the same width as tr */
+    width: calc(100% - 17px);
+    /* - 17px because of the scrollbar width */
+}
+
+.mega-tabls-table-control tr th,
+.transactions_table tr th,
+.portfolio-table tr th {
+    border-right: 2px solid white !important;
+    color: var(--main-text-color);
+    font-size: 13px;
+    font-weight: 500;
+    background: var(--th-background);
+    padding-left: 16px;
+    font-family: 'Roboto';
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.mega-tabls-table-control tr td,
+th,
+/* cut th, td content if too long*/
+.portfolio-table td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 0;
+    width: auto
+}
+
+th i.sort_icon {
+    font-size: 15px;
+    color: var(--icon-color);
+    float: inherit
+}
+
+.sort_col {
+    cursor: pointer
+}
+
+/************************************/
+.styleSelect {
+    position: fixed !important;
+    left: auto !important;
+    top: 0px !important;
+    width: calc(100% - 22%) !important;
+    height: 100%;
+    bottom: 40px !important;
+    padding-bottom: 56px !important;
+    border: none !important;
+    background: none !important;
+}
+
+.styleSelect-list {
+    overflow-y: scroll;
+    bottom: 50px !important;
+    height: 100%;
+    width: auto;
+    top: 22px;
+    left: 5px;
+    position: relative;
+    border: 1px solid var(--tr-border);
+    background: white;
+    border-radius: 3px
+}
+
+.styleSelect-list li:hover {
+    background-color: var(--hover-color)
+}
+
+.symbol-description {
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.symbol-type {
+    float: right;
+    margin-right: 20px
+}
+
+.dateRangeContainer .dropdown-menu {
+    width: 100%;
+}

@@ -1,0 +1,225 @@
+/*ERROR Classes*/
+.error {
+    text-align: center;
+    font-size: 12px;
+    color: var(--negative-red-color);
+    font-weight: 500;
+    font-family: 'Roboto'
+}
+
+.invalid:focus {
+    border: 1px solid rgba(255, 37, 37, 0.68) !important;
+
+}
+
+.invalid {
+    border: 1px solid rgba(255, 37, 37, 0.68);
+}
+
+/*TRADE RECORD*/
+.deteils.active-btn{
+    color: #bcbcbc;
+}
+
+.deteils.active-btn:hover{
+    color: #bcbcbc;
+}
+
+.deteils{
+    text-decoration: none!important;
+    padding: 9px;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: 'Roboto';
+     color: var(--main-text-color);
+    background-color: #f8f9fa;
+    border-radius: 3px;
+}
+.deteils i{
+   padding: 0px;
+    font-size: 16px!important
+}
+
+.deteils:hover{
+   color: var(--blue-text);
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    transition: 1sec ease ease-in
+}
+
+label[for] {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+label[for^="TP"]{
+   display: flex;
+   margin-left: 33px
+}
+.price-inputs .entry-price{
+    border-top-right-radius: 0px !important;
+     border-bottom-right-radius: 0px !important;
+}
+.price-inputs .sl-price{
+    text-align: center;
+    border-right:none!important;
+    border-left: none!important;
+    border-radius: 0px;
+}
+.price-inputs .tp-price{
+     border-top-left-radius: 0px !important;
+     border-bottom-left-radius: 0px !important;
+    text-align: right
+}
+
+
+.quantity {
+    width: 100px;
+    height: 30px
+}
+
+.entry-date,
+.exit-date {
+    width: 142px
+}
+
+.profit_loss_pips,
+.profit_loss_currency {
+    width: 142px
+}
+.pl_inputs .profit_loss_pips{
+    text-align: right
+}
+
+.indicator_label {
+    font-size: 13px!important;
+    font-weight: 400!important;
+    font-family: 'Roboto' !important;
+}
+
+.indicator_current_trade {
+      font-size: 13px!important;
+    font-weight: 400!important;
+    font-family: 'Roboto' !important;
+    color: var(--blue-text) !important;
+    padding-left: 10px
+}
+
+/*buy sell qantity style*/
+
+.type-side .buy-sell-div .buy,
+.sell {
+    height: 50px;
+      border: none!important;
+}
+
+.type-side .buy-sell-div .buy {
+    margin-right: 2px;
+    background: rgba(245, 245, 245, 0.79);
+    text-align: left;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.type-side .buy-sell-div .sell {
+    margin-left: 2px;
+    background: rgba(245, 245, 245, 0.79);
+    text-align: right;
+    font-size: 14px;
+    font-weight: 200;
+    z-index: 0
+}
+
+.buy.focus,
+.buy:focus,
+.sell.focus,
+.sell:focus {
+    outline-offset: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.buy:hover,
+.sell:hover {
+    color: rgb(196, 196, 196);
+}
+
+.quantity {
+    position: absolute;
+    margin-left: 32%;
+    margin-top: 0px;
+    z-index: 1;
+    box-shadow: -1px 0px 0px 1px white, 1px 0px 0px 1px white;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.quantity:focus {
+    border: 1px solid #a295ff !important;
+    box-shadow: -1px 0px 0px 1px white, 1px 0px 0px 1px white !important
+}
+
+/*---------------------*/
+
+/*RISK REWARD SLIDER*/
+
+.badge {
+    font-size: 13px;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-weight: 200;
+}
+
+/*****************/
+
+
+.recording-inputs .trade-commentar {
+    height: 130px;
+    padding: 10px
+}
+
+.recording-inputs textarea,
+#StrategyModal .modal-content textarea {
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #414c52;
+    outline: none;
+    border-radius: 3px;
+    font-weight: 500;
+    border: 1px solid #e6eaed;
+    box-shadow: 0 1px 5px rgba(105, 105, 105, 0.06);
+}
+
+textarea.form-control:focus {
+    box-shadow: none;
+    border-width: 1px;
+    border: 1px solid #a295ff;
+    box-shadow: 0 1px 5px rgba(105, 105, 105, 0.31);
+}
+
+/*error-succes message contaier*/
+
+#TradeInfoMessageContainer {
+    text-align: center;
+    padding: 14px !important;
+    font-size: 13px;
+    color: #222222;
+    background: white;
+    opacity: 80%;
+    font-weight: 400;
+    font-family: 'Roboto';
+    position: absolute;
+    height: auto;
+    width: auto;
+    border: 1px solid #eae1e1;
+    border-left: 2px solid #ff5f8a;
+    border-radius: 2px;
+    bottom: 12%;
+    left: 1.4%;
+    display: none;
+    -webkit-box-shadow: 3px 3px 16px -7px rgba(11, 23, 22, 1);
+    -moz-box-shadow: 3px 3px 16px -7px rgba(11, 23, 22, 1);
+    box-shadow: 3px 3px 16px -7px rgba(11, 23, 22, 1);
+}

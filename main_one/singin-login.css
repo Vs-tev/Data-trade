@@ -1,0 +1,154 @@
+html body{
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    height:100%;
+    color:#a13151;
+    overflow-x: auto;
+    overflow-y:auto;
+    background-image:url(/include/img_bkgrnd/modern-grey-abstract-background-4k_nkq5obw1e__F0000.png);
+    background-size: cover;
+}
+
+i:hover {
+background: #07f; 
+    transition: 0.25s ease;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white
+}
+i{
+    padding: 10px
+}
+
+.navbar .btn, form .btn {
+   font-weight: 600;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px
+}
+.navbar h3{
+    color: #223254;
+    font-weight:500
+}
+
+.login-container, .singup{
+    margin-top:10%
+}
+
+.form-group h5{
+    font-weight: 500
+}
+
+.navbar .btn:hover{
+text-decoration: underline
+}
+
+.form-group .btn-block{
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+
+
+.form-group select{
+    border-radius: 2px;
+}
+.form-group select:focus{
+    outline: none;
+  box-shadow:none !important;
+    font-size: 13px
+}
+ 
+
+        /*input style */
+
+.styledInputs {
+    padding-bottom:20px
+}
+.styledInputs input{
+    text-indent: 10px
+}
+ .inp {
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+.inp .label {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  transition: all 0.5s ease;
+}
+.inp .border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #07f;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  transition: all 0.75s ease;
+}
+
+.inp input {
+  -webkit-appearance: none;
+  width: 100%;
+  border: 0;
+  font-family: inherit;
+  padding: 12px 0;
+  height: 48px;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 1px solid #b1b4bc;
+  background: none;
+  border-radius: 0;
+  color: #223254;
+  transition: all 0.15s ease;
+    
+}
+
+.inp input:hover {
+  background: rgba(34,50,84,0.03);
+}
+.inp input:not(:placeholder-shown) + span {
+  color: #5a667f;
+  -webkit-transform: translateY(-26px) scale(0.75);
+          transform: translateY(-26px) scale(0.75);
+}
+.inp input:focus {
+  background: rgba(34,50,84,0.03);
+  outline: none;
+  box-shadow: none;
+}
+.inp input:focus + span {
+  color: #07f;
+  -webkit-transform: translateY(-26px) scale(0.75);
+          transform: translateY(-26px) scale(0.75);
+             
+}
+.inp input:focus + span + .border {
+  -webkit-transform: scaleX(1);
+    transform: scaleX(1);}
+
+        /*WELCOME PAGE */ 
+
+.container h1{
+    margin-top: 8%;
+        
+}
+
+
+
+
+
+   
+

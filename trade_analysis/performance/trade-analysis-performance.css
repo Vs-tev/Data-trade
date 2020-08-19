@@ -1,0 +1,278 @@
+html,
+body {
+    overflow-x: hidden;
+    color: var(--main-text-color);
+    font-family: 'Roboto';
+}
+
+html body {
+    background-color: #f1f5f6;
+}
+
+.from-to-p{
+     position: relative;
+    top:9px;
+    margin-right:7px;
+    margin-left: 50px
+}
+
+#portfolios{
+   text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 92%;
+}
+
+.portfolio-performance-chartcontainer,
+.smTableContainer {
+    padding-bottom: 3%;
+    background: white;
+}
+
+.custom-checkbox {
+    position: relative;
+    top: 7px
+}
+
+.custom-checkbox > label {
+    padding-top: 3px;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 500
+}
+
+.custom-control-label::before {
+    outline-offset: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/*Capital Return% Tab style*/
+.tab-capital-pips {
+    z-index: 1
+}
+
+.chart-tabs {
+    border: none;
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+.chart-tabs li a,
+.date-performance-tabs li a {
+    font-weight: 600;
+    color: var(--main-text-color);
+    font-size: 14px;
+    border-radius: 0px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-right: 0px;
+    border-bottom: 2.5px solid white;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-family: 'Roboto';
+}
+
+.chart-tabs li a:focus,
+.date-performance-tabs li a:focus {
+    outline-offset: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.tab-capital-pips .chart-tabs a:hover,
+.date-performance-tabs li a:hover {
+    color: var(--blue-text);
+}
+
+.tab-capital-pips .chart-tabs li.active a,
+.date-performance-tabs li.active a {
+    border-bottom: solid 2.5px var(--blue-text);
+    color: var(--blue-text);
+}
+
+.date-performance-tabs {
+    border: none;
+    padding-top: 0px !important;
+}
+
+/****************/
+
+
+
+.info_boxes{
+    margin-right: 40px;
+    font-family: 'Roboto';
+}
+
+.row_label {
+    font-size: 12px;
+    color: #c1c1c1;
+    margin: 0px !important;
+}
+
+.output_label {
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--main-text-color);
+    margin: 0px !important;
+    line-height: 16px
+}
+
+.currency,
+.blue {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    color: var(--blue-text);
+    margin-left: 3px
+}
+.from-label {
+    margin: 30px 0px 0px;
+}
+.win-lose, .from-label{
+     font-size: 12px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+/****************************/
+
+
+.right-container {
+    padding-left: 0px;
+}
+
+.right-container > table {
+    margin-top: 5%
+}
+
+/*donut win-rate*/
+
+#winrate_container {
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.circle_result {
+    position: relative;
+    display: inline-block;
+    margin-top: 45px
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.circle_label_in {
+    color: #414c52;
+    display: block;
+    line-height: 200px;
+    text-align: center;
+    width: 220px;
+    font-size: 34px !important;
+    font-weight: 100 !important;
+}
+
+.win_rate_lable_circle {
+    position: absolute;
+    text-align: center;
+    top: 115px;
+    left: 77px;
+    font-size: 16px !important;
+    color: #8e6767;
+    font-weight: 400 !important;
+}
+
+/***************/
+.smTableContainer {
+    padding: 40px 0px 3% 4%;  
+}
+.table-performance {
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: var(--main-text-color);
+}
+
+.header{
+    font-size: 13px;
+    font-weight: 500;
+    border-bottom: 1px solid #c1c1c1 !important;
+    color: var(--main-text-color) !important;
+    
+}
+
+.table-performance tr td:nth-child(1) {
+    font-weight: 500;
+}
+
+.table-performance tr td:nth-child(2),
+.table-performance tr td:nth-child(3),
+.table-performance tr td:nth-child(4),
+.table-performance tr td:nth-child(5),
+.table-performance tr td:nth-child(6){
+    text-align: center;
+    font-weight: 500;
+    color: #8e6767;
+}
+
+.smTableContainer .table-performance tr td {
+    text-align: left !important;
+}
+/************************/
+.height{
+    min-height: 850px
+}
+
+.current_date_label {
+    font-size: 13px;
+    font-weight: 600;
+   
+}
+.container_period_content >div{
+    margin-top: 30px
+}
+
+
+ .win_rate_label {
+     color: var(--blue-text);
+     margin-bottom: 0px;
+ }
+
+ .progress {
+     height: 5px;
+     border-radius: 2px;
+     margin-top: 12px;
+     box-shadow: 3px 3px 4px -7px rgba(11, 23, 22, 1);
+ }
+
+ .progress-bar {
+     height: 5px;
+     border-radius: 2px;
+     box-shadow: 3px 3px 11px -7px rgba(11, 23, 22, 1);
+ }
+
+.container_trades{
+    padding: 0px;
+    margin-top: 40px!important;
+     overflow-y: auto;
+    height: 520px
+}
+.container_trades tr:hover {
+      background-color: var(--hover-color)
+}
+.a8a8a8{
+   color: #a2a2a2
+}
+
+#more{
+    margin-top: 20px
+}
+#more>i {
+    padding-right: 10px;
+    vertical-align: middle;
+}
+

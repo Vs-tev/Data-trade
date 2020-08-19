@@ -1,0 +1,159 @@
+ /*SIDEBAR MENU*/
+ .sidebar {
+     height: 100%;
+     width: 55px;
+     position: absolute;
+     z-index: 1;
+     background-color: #ffffff;
+     border: 1px solid var(--th-border);
+     transition: 0.5s;
+     overflow-x: hidden;
+     padding-top: 10px;
+ }
+
+ .side, .sideChosePortfolio {
+     /*portfolio manager window*/
+     height: 0%;
+     width: 0%;
+     position: absolute;
+     z-index: 2;
+     background-color: white;
+     transition: width 0.1s ease;
+     overflow-x: hidden;
+     -webkit-box-shadow: 0px 0px 17px -6px rgba(166, 166, 166, 1);
+     -moz-box-shadow: 0px 0px 17px -6px rgba(166, 166, 166, 1);
+     box-shadow: 0px 0px 17px -6px rgba(166, 166, 166, 1);
+ }
+
+ .sidebar .sidebar_a i:hover,
+ .portfolio-name-row > i:hover {
+     color: #000000;
+     transition: 0.15s ease;
+     background: #efefef;
+     -webkit-box-shadow: 0px 0px 1px 7px #efefef;
+     -moz-box-shadow: 0px 0px 1px 7px #efefef;
+     box-shadow: 0px 0px 1px 7px #efefef;
+ }
+
+
+ .sidebar > .sidebar_a,
+ .sidebar .dropdown > .sidebar_a {
+     position: relative;
+     color: var(--main-text-color);
+     display: block;
+     margin-bottom: 30px;
+ }
+
+ .sidebar .sidebar_a.focus,
+ .sidebar .sidebar_a:focus {
+     outline-offset: 0 !important;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+ }
+
+ .sidebar .sidebar_a i,
+ .portfolio-name-row > i {
+     padding: 0px;
+     font-size: 24px;
+     text-align: center;
+     border-radius: 80px
+ }
+
+ /*Tooltip*/
+ .tooltiptext {
+     visibility: hidden;
+     width: 48px;
+     text-align: center;
+     padding: 3px;
+     font-size: 11px;
+     font-family: 'Roboto';
+     border-radius: 2px;
+     color: #f7f7f7;
+     background: rgba(0, 0, 0, 0.75);
+
+     /* Position the tooltip */
+     position: absolute;
+     z-index: ;
+     top: 32px;
+     left: 5%;
+ }
+
+ a:hover .tooltiptext {
+     visibility: visible;
+ }
+
+
+ .main {
+     margin-left: 56px;
+     /* Same as the width of the sidenav */
+     padding: 0px 0px;
+     overflow-x: hidden;
+     overflow-y: hidden;
+ }
+
+
+ /*Card portfolio style*/
+
+
+
+ /*display class*/
+
+ .display_trade_panel {
+     visibility: hidden;
+     width: 0px;
+ }
+
+ .display_accountmanager {
+     width: 65%;
+     height: 100%;
+     border-right: 1px solid #c6c6c6;
+ }
+
+
+ .dropright .menu1 {
+     position: fixed !important;
+     margin-left: 52px;
+     margin-top: 1px;
+     z-index: 2;
+     width: 250px;
+     border: 1px solid var(--tr-border);
+     -webkit-box-shadow: 0px 0px 17px -6px rgba(166, 166, 166, 1);
+     -moz-box-shadow: 0px 0px 17px -6px rgba(166, 166, 166, 1);
+     box-shadow: 0px 0px 17px -6px rgba(166, 166, 166, 1);
+
+ }
+
+ .dropright .dropdown-toggle:after {
+     content: none
+ }
+
+ .menu1 .dropdown-item {
+     font-size: 15px;
+     font-weight: 500;
+     font-family: 'Roboto';
+     color: var(--main-text-color);
+     padding-top: 13px;
+     padding-bottom: 13px
+ }
+
+ .menu1 .dropdown-item:first-child {
+     padding-top: 8px;
+     padding-bottom: 8px
+ }
+
+ .menu1 .dropdown-item:active {
+     background-color: #f9f9f9
+ }
+
+ .dropdown .avatar_letter {
+     font-size: 22px;
+     font-weight: 200;
+     width: 34px;
+     text-transform: capitalize;
+     margin-left: 125px;
+     border-radius: 32px;
+     margin-right: auto
+         
+ }
+
+ /**/
